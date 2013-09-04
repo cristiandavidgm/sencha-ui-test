@@ -1,0 +1,8 @@
+RewriteEngine On
+
+## some servers require this to be changed to app directory
+#RewriteBase /~david/test/alert_logic/sencha/tmDbApi/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) index.php?_REWRITE_COMMAND=$1 [QSA,L]

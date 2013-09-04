@@ -1,0 +1,36 @@
+.
+|-- apitree.txt
+|-- composer.json
+|-- composer.lock
+|-- composer.phar
+|-- config
+|   `-- Config
+|       `-- tmDbApiConfig.php
+|-- data
+|-- index.php
+|-- lib
+|   `-- config.php
+|-- src
+|   |-- MyNameSpace
+|   |   `-- MyAPIClient.php
+|   `-- callables.php
+`-- vendor
+    |-- autoload.php
+    |-- composer
+    |   |-- ClassLoader.php
+    |   |-- autoload_classmap.php
+    |   |-- autoload_namespaces.php
+    |   |-- autoload_real.php
+    |   `-- installed.json
+    |-- doctrine
+    |   `-- common
+    |-- guzzle
+    |   `-- guzzle
+    |-- predis
+    |   `-- predis
+    |-- slim
+    |   `-- slim
+    `-- symfony
+        `-- event-dispatcher
+
+18 directories, 15 files

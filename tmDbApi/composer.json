@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-0": {
+            "MyNameSpace": "src/",
+            "Config": "config/"
+         }
+    },
+    "require": {
+        "slim/slim": "2.*",
+        "guzzle/guzzle": "~3.7",
+        "doctrine/common": "2.3.*",
+        "predis/predis": "0.8.*"
+    }
+}
