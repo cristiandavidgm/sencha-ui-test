@@ -77,32 +77,32 @@ Any other files are not relevant to the app overall functions.
 
 Only listed files or folder are relevant to be explained.
 
-|-- app					//Inside this folder goes the app code we write.
-|   |-- controller          //This folder contains the controllers
-|   |   |-- ActorsListPanel.js  //Controller relevant to the list of actors an the search field.
-|   |-- model
-|   |   |-- Actor.js       //Actor model, as returned by themoviedb api. Matching the documentation.
-|   |   |-- Movie.js      //Movie model, as returned by themoviedb api. Matching the documentation.
-|   |-- profile             //If we were to build different profiles for diferent screens the code would be here.
-|   |-- store              //Here are the stores, The datasources definitions go in here.
-|   |   |-- Actors.js    //Actors store, used to retrieve the actors list from the configured API
-|   |   |-- Movies.js  //Movies.js store, used to retrieve the actor movies list from the configured API
-|   |-- util
-|   |   |-- Functions.js  //This is a helper file with usefull functions I use in my projects. It is a singleton emulation.
-|   |   `-- Globals.js    //Here are the app configuration parameters, the API URL for example.
-|   `-- view              //Here are the views
-|       |-- ActorsListPanel.js  //The actors list on the left, including the search field. 
-|       |-- Main.js                   //The main panel, including the top toolbar.
-|       |-- MoviesListPanel.js  //The movies list on the right.
-|-- app.js            //The main file, it is like the index for the sencha framework. model, views, controller, stores are declared here.
-|-- index.html     // Since our app is an html5 page this is the index file. there is no need to change it.
-`-- resources
-    |-- css
-    |   `-- app.css  //Compiled css file. this is the main css but it is generated using compass. so do not edit it. 
-    |-- sass
-    |   |-- app.scss   //This is the file we edit to add our custom styles.
-    |   |-- config.rb
-    |   `-- stylesheets
+|-- app					//Inside this folder goes the app code we write.  
+|   |-- controller          //This folder contains the controllers  
+|   |   |-- ActorsListPanel.js  //Controller relevant to the list of actors an the search field.  
+|   |-- model  
+|   |   |-- Actor.js       //Actor model, as returned by themoviedb api. Matching the documentation.  
+|   |   |-- Movie.js      //Movie model, as returned by themoviedb api. Matching the documentation.  
+|   |-- profile             //If we were to build different profiles for diferent screens the code would be here.  
+|   |-- store              //Here are the stores, The datasources definitions go in here.  
+|   |   |-- Actors.js    //Actors store, used to retrieve the actors list from the configured API  
+|   |   |-- Movies.js  //Movies.js store, used to retrieve the actor movies list from the configured API  
+|   |-- util  
+|   |   |-- Functions.js  //This is a helper file with usefull functions I use in my projects. It is a singleton emulation.  
+|   |   `-- Globals.js    //Here are the app configuration parameters, the API URL for example.  
+|   `-- view              //Here are the views 
+|       |-- ActorsListPanel.js  //The actors list on the left, including the search field.   
+|       |-- Main.js                   //The main panel, including the top toolbar.  
+|       |-- MoviesListPanel.js  //The movies list on the right.  
+|-- app.js            //The main file, it is like the index for the sencha framework. model, views, controller, stores are   declared here.   
+|-- index.html     // Since our app is an html5 page this is the index file. there is no need to change it.  
+`-- resources  
+    |-- css  
+    |   `-- app.css  //Compiled css file. this is the main css but it is generated using compass. so do not edit it.   
+    |-- sass  
+    |   |-- app.scss   //This is the file we edit to add our custom styles.  
+    |   |-- config.rb  
+    |   `-- stylesheets  
 
 
 
